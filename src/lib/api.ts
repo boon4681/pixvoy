@@ -1,3 +1,3 @@
 import PocketBase from 'pocketbase';
 
-export const pb = new PocketBase(window.location.origin);
+export const pb = new PocketBase("https://pixvoy.boon4681.com");
