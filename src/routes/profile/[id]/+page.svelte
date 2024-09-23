@@ -107,7 +107,7 @@
             <Tabs value="posts" class="mt-8">
                 <TabsList>
                     <TabsTrigger value="posts"><Grid class="mr-2 h-4 w-4" /> Posts</TabsTrigger>
-                    <TabsTrigger value="saved"><Bookmark class="mr-2 h-4 w-4" /> Saved</TabsTrigger>
+                    <!-- <TabsTrigger value="saved"><Bookmark class="mr-2 h-4 w-4" /> Saved</TabsTrigger> -->
                     <!-- <TabsTrigger value="settings"><Settings class="mr-2 h-4 w-4" /> Settings</TabsTrigger> -->
                 </TabsList>
                 <TabsContent value="posts" class="mt-6">
@@ -133,12 +133,11 @@
                         {/each}
                     </div>
                 </TabsContent>
-                <TabsContent value="saved">
-                    <p class="text-gray-600">Saved items will appear here.</p>
-                </TabsContent>
-                <TabsContent value="settings">
+                <!-- <TabsContent value="saved">
+                </TabsContent> -->
+                <!-- <TabsContent value="settings">
                     <p class="text-gray-600">User settings will appear here.</p>
-                </TabsContent>
+                </TabsContent> -->
             </Tabs>
         </div>
     </div>

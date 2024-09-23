@@ -62,13 +62,13 @@
                 >
             {/if}
             <div class="flex space-x-2">
-                <Button
+                <!-- <Button
                     variant="ghost"
                     size="icon"
                     class="rounded-full bg-white bg-opacity-50 hover:bg-opacity-75 flex content-center"
                 >
                     <Heart class={`h-4 w-4 ${liked ? "fill-red-500 text-red-500" : "text-gray-700"}`} />
-                </Button>
+                </Button> -->
                 <!-- <Button variant="ghost" size="icon" class="rounded-full bg-white bg-opacity-50 hover:bg-opacity-75">
                     <ThumbsUp class="h-4 w-4" />
                 </Button> -->

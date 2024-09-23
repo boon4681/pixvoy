@@ -20,9 +20,9 @@
         <div class="flex justify-between items-center mt-4">
             <Button variant="secondary" size="sm" class="rounded-full">Save</Button>
             <div class="flex space-x-2">
-                <Button variant="ghost" size="icon" class="rounded-full">
+                <!-- <Button variant="ghost" size="icon" class="rounded-full">
                     <Heart class="h-4 w-4 text-red-500" />
-                </Button>
+                </Button> -->
                 <Button variant="ghost" size="icon" class="rounded-full">
                     <MessageCircle class="h-4 w-4" />
                 </Button>

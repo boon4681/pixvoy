@@ -56,5 +56,6 @@ export const register = async ({ username, email, password }: { username: string
         passwordConfirm: password,
         name: username,
     });
+    await pb.collection("users").authWithPassword(email, password);
     lock_register.set(false)
 };

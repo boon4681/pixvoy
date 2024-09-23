@@ -19,7 +19,7 @@
         </div>
         <div class="flex-1 max-w-xl px-4 ml-auto">
             {#if search}
-                <div class="hidden sm:flex relative">
+                <!-- <div class="hidden sm:flex relative">
                     <Search class="absolute left-4 top-2.5 h-6 w-6 text-muted-foreground" />
                     <Input
                         type="search"
@@ -27,7 +27,7 @@
                         class="pl-12 h-12 w-full"
                         bind:value={searchQuery}
                     />
-                </div>
+                </div> -->
             {/if}
         </div>
         <Guard>
