@@ -32,7 +32,7 @@
     <div
         class="absolute top-4 right-4 flex justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-300"
     >
-        <div use:clickToCopy={window.location.href}>
+        <div use:clickToCopy={`${window.location.origin}/v/${id}`}>
             <Button variant="secondary" size="icon" class="rounded-full">
                 <Share2 class="h-4 w-4" />
             </Button>
