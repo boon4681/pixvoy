@@ -8,6 +8,7 @@ onRecordBeforeCreateRequest((e) => {
         url: "https://deepbooru.boon4681.com/predict",
         method: "POST",
         body: formData,
+        timeout: 20
     })
     if (res.statusCode == 200) {
         e.record.set("tags", res.json.tags.map(a => {
